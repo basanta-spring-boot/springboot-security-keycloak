@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console.enabled: true
+
+server:
+  port: 9090
+
+
+keycloak:
+  auth-server-url: http://localhost:8180/auth
+  realm: Javatechie
+  resource: springboot-keycloak
+  public-client: true
+  bearer-only: true
